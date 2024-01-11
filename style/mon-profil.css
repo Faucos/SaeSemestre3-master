@@ -1,0 +1,96 @@
+/* Style général */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #053f5e;
+}
+
+h1 {
+  color: white;
+  font-size: 36px; /* Augmentation de la taille de la police pour le titre h1 */
+}
+h3 {
+  color: white;
+  font-size: 12px; /* Augmentation de la taille de la police pour le titre h1 */
+}
+
+/* Contenu principal */
+.container {
+  width: auto;
+  height: auto;
+  background-color: #115173;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px; /* Ajustement du rembourrage */
+}
+
+.modifier_profil {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px; /* Ajustement de la marge */
+}
+
+button {
+  cursor: pointer;
+  margin: 15px; /* Ajustement de la marge des boutons */
+  color: #ffffff;
+  background-color: #226C94;
+  border: none;
+  text-align: center;
+  padding: 22px 24px; /* Ajustement de la taille du rembourrage des boutons */
+  font-size: 24px; /* Augmentation de la taille de la police des boutons */
+}
+
+.container h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 40px; /* Ajustement de la marge inférieure du titre h1 */
+}
+
+.container .content p {
+  color: white;
+  font-size: 18px; /* Augmentation de la taille de la police du contenu */
+  margin-bottom: 40px;
+}
+
+/* Style du formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  color: white;
+  font-size: 15px; /* Augmentation de la taille de la police pour les étiquettes du formulaire */
+}
+
+form input {
+  background-color: white;
+  color: #053f5e;
+  font-size: 15px; /* Augmentation de la taille de la police pour les champs de saisie */
+  padding: 15px; /* Ajustement du rembourrage des champs de saisie */
+  margin: 10px 0; /* Ajustement de la marge des champs de saisie */
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #ffffff;
+  color: #053f5e;
+  font-size: 14px; /* Augmentation de la taille de la police pour le bouton du formulaire */
+  padding: 20px; /* Ajustement du rembourrage du bouton du formulaire */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #053f5e;
+  color: #ffffff;
+}
